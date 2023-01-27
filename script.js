@@ -60,3 +60,24 @@ function createPromise(level, win, lose) {
     })
     return promise;
 }
+
+// промисы используются для запросов на бэкэнд
+// const resp = fetch('https://pokeapi.co/api/v2/pokemon/ditto');
+// console.log(resp);
+
+// resp
+// .then(resp => resp.json())
+// .then(data => console.log(data))
+// .catch(err => console.log(err))
+
+
+// каждый 1500 или 60000*(i+1) из массива будет браться смайл
+// const arr = ['😂', '😋', '🥰'];
+
+// for (let i = 0; i < arr.length; i += 1) {
+//     setTimeout(() => {
+//         console.log(arr[i]);
+//         // console.log(i);
+
+//     }, 1500 * (i + 1)) //60000*(i+1)
+// }
